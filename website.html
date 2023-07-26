@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voluntary Website</title>
+    <link rel="stylessheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Add your website logo and navigation menu here -->
+        <h1>Welcome to the Voluntary Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#volunteer">Volunteer</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Home Section</h2>
+            <!-- Add content about your website's mission and goals -->
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <!-- Add information about your organization and its history -->
+        </section>
+
+        <section id="volunteer">
+            <h2>Volunteer</h2>
+            <!-- Add information on how to become a volunteer -->
+            <p>If you are interested in volunteering, please fill out the form below:</p>
+            <form action="/submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <!-- Add contact information for your organization -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Add footer information here -->
+        <p>&copy; 2023 Your Voluntary Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Add your JavaScript files here (if you have any) -->
+</body>
+</html>
