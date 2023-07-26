@@ -15,9 +15,8 @@
           Our Work
           <ul class="sub-menu">
             <li>Education and awareness</li>
-            <li>Donate & Fundraising</li>
+           
             <li>Patnering with NGO'S &organizations</li>
-            <li>Stories and  testimonials</li>
             <li>Post-realease support</li>
             <li>Health and mental health support</li>
           </ul>
@@ -36,15 +35,16 @@
             <li>Partner</li>
             <li>Volunteer</li>
           </ul>
-        </li>
-        
-
-        
+        </li> 
+        <li>
+          Stories and testimonials
+        </li> 
+        <li>Donate & Fundraising</li>    
         </li>
       </ul>
      </nav>
-
-    </header>
+     
+   </header>
   </body>
 </html>
 

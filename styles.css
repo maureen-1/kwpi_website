@@ -13,9 +13,10 @@ body {
   
  
   header {
-    background-color: #336699;
+   background-color: white;
     padding: -2.5px;
     justify-content: center;
+    flex-direction: left;
    
     
 }
@@ -64,3 +65,4 @@ body {
     transform: scale(1);
     
   }
+  
